@@ -1,0 +1,28 @@
+<wxs module='tags'>
+  module.exports = function(tag){
+    return tag.split(',')
+  }
+</wxs>
+
+<template name='list'>
+  <view class='list'>
+    <view wx:for='{{list}}' wx:key='id' class='list-item'>
+      <navigator url='/pages/shopdetails/shopdetails?id={{item.id}}'>
+        <image class='list-img' lazy-load src='https://www.koocv.com{{item.image_path}}'></image>
+        <view class='list-info'>
+          <view class='list-title'>{{item.title}}</view>
+          <view class='clr'>
+            <view class='list-score'>
+              <view class='score' style='width:{{item.score*10}}%'></view>
+            </view>
+            <view class='list-price'>¥ {{item.price}}/人</view>
+          </view>
+          <view class='list-position'>{{item.place}}<text class='classify'>{{item.classify}}</text><text class='list-dis'>{{item.distance>=1000?item.distance/1000+"km":item.distance+"m"}}</text></view>
+          <view wx:if="{{item.label}}" class='label'>
+            <text wx:for='{{tags(item.label)}}'>{{item}}</text>
+          </view>
+        </view>
+      </navigator>
+    </view>
+  </view>
+</template>

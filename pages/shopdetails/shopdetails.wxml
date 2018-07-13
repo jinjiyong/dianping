@@ -1,0 +1,31 @@
+<view class='shop-details'>
+  <view class='list-item'>
+    <image class='list-img' src='{{info.image_path?"https://www.koocv.com"+info.image_path:""}}'></image>
+      <view class='list-info'>
+        <view class='list-title'>{{info.title}}</view>
+        <view class='clr'>
+          <view class='list-score'>
+            <view class='score' style='width:{{info.score*10}}%'></view>
+          </view>
+          <view class='list-price'>¥ {{info.price}}/人</view>
+        </view>
+        <view class='shop-score'>
+          环境：{{info.environment}} 服务：{{info.service}}
+        </view>
+        <view class='list-position'>{{info.place}} {{info.classify}}</view>
+      </view>
+  </view>
+  <view class='shop-aside'>
+    <text class='iconfont icon-shijian'>{{info.shopHours}}</text>
+    <text wx:if="{{hasWifi!=='0'}}" class='iconfont icon-wifi'>WIFI</text>
+    <text wx:if="{{info.hasSight!=='0'}}" class='iconfont icon-yezishu'>景观位</text>
+    <text wx:if="{{info.hasBox!=='0'}}" class='iconfont icon-baoxiang'>包厢</text>
+    <text wx:if="{{info.hasSofa!=='0'}}" class='iconfont icon-shafa'>沙发</text>
+    <text wx:if="{{info.hasBabyChair!=='0'}}" class='iconfont icon-baobaoyi'>宝宝椅</text>
+  </view>
+  <view class='shop-position iconfont icon-dizhi'>
+    <view class='shop-addr'>{{address}}</view>
+    <view class='shop-distance'>距您步行{{distance}}m</view>
+  </view>
+</view>
+<button type='default' class='btn'>收藏</button>

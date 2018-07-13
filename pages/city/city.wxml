@@ -1,0 +1,52 @@
+<view class='city-list'>
+  <view class='item'>北京GPS定位</view>
+</view>
+<view class='city-index'>热门城市</view>
+<view class='city-hot'>
+  <view class='item'>北京</view>
+  <view class='item'>上海</view>
+  <view class='item'>广州</view>
+  <view class='item'>深圳</view>
+  <view class='item'>成都</view>
+  <view class='item'>重庆</view>
+  <view class='item'>杭州</view>
+  <view class='item'>天津</view>
+  <view class='item'>济南</view>
+</view>
+<view class='city-index'>A</view>
+<view class='city-list'>
+  <view class='item'>阿</view>
+  <view class='item'>阿</view>
+  <view class='item'>阿</view>
+</view>
+<view class='city-index-list'>
+  <view class='inner'>
+    <view class='item'>热门</view>
+    <view class='item'>A</view>
+    <view class='item'>B</view>
+    <view class='item'>C</view>
+    <view class='item'>D</view>
+    <view class='item'>E</view>
+    <view class='item'>F</view>
+    <view class='item'>G</view>
+    <view class='item'>H</view>
+    <view class='item'>I</view>
+    <view class='item'>J</view>
+    <view class='item'>K</view>
+    <view class='item'>L</view>
+    <view class='item'>M</view>
+    <view class='item'>N</view>
+    <view class='item'>O</view>
+    <view class='item'>P</view>
+    <view class='item'>Q</view>
+    <view class='item'>R</view>
+    <view class='item'>S</view>
+    <view class='item'>T</view>
+    <view class='item'>U</view>
+    <view class='item'>V</view>
+    <view class='item'>W</view>
+    <view class='item'>X</view>
+    <view class='item'>Y</view>
+    <view class='item'>Z</view>
+  </view>
+</view>

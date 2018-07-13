@@ -1,0 +1,52 @@
+@import '../../common/css/font.wxss';
+@import '../../common/css/list.wxss';
+
+.list-nav {
+  display: flex;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  border-bottom: 1px solid #e4e4e4;
+  width: 100%;
+  height: 80rpx;
+  background: #fff;
+}
+.list-nav text {
+  flex: 1;
+  color: #333;
+  font-size: 30rpx;
+  line-height: 75rpx;
+  text-align: center;
+}
+.list-nav text:after {
+  margin-left: 10rpx;
+  color: #999;
+  font-size: 26rpx;
+}
+.list-nav .ico {
+  flex: none;
+  width: 30rpx;
+  line-height: 70rpx;
+}
+.options {
+  display: none;
+  box-sizing: border-box;
+  position: fixed;
+  left: 0;
+  top: 80rpx;
+  z-index: 999;
+  padding: 10rpx 30rpx;
+  width: 100%;
+  background: #fff;
+}
+.options view {
+  border-bottom: 1px solid #e4e4e4;
+  font-size: 28rpx;
+  line-height: 60rpx;
+}
+.shopList {
+  padding-top: 80rpx;
+  background: #fff;
+}

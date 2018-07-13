@@ -1,0 +1,5 @@
+.auth-text {
+  font-size: 32rpx;
+  line-height: 120rpx;
+  text-align: center;
+}

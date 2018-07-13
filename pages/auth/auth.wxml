@@ -1,0 +1,2 @@
+<view class='auth-text'>只有授权后才能使用</view>
+<button class='btn' type='default'>请授权后使用</button>

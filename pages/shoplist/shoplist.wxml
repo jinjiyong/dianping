@@ -1,0 +1,22 @@
+<import src='/common/template/list.wxml' />
+
+<scroll-view class='page' scroll-y>
+  <view class='list-nav'>
+    <text class='iconfont icon-xiangxia'>附近</text>
+    <text class='ico'>|</text>
+    <text class='iconfont icon-xiangxia'>智能排序</text>
+  </view>
+  <view class='options range'>
+    <view>500米</view>
+    <view>1000米</view>
+    <view>2000米</view>
+  </view>
+  <view class='options sort'>
+    <view>根据评分排序</view>
+    <view>根据距离排序</view>
+  </view>
+  <view class='shopList'>
+    <template is='list' />
+  </view>
+  <view class='loading-more'>正在加载...</view>
+</scroll-view>

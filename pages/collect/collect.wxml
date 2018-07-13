@@ -1,0 +1,6 @@
+<import src='/common/template/list.wxml' />
+
+<scroll-view scroll-y class='page'>
+<template is='list' />
+  <view class='loading-more'>正在加载...</view>
+</scroll-view>

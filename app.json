@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/shoplist/shoplist",
+    "pages/shopdetails/shopdetails",
+    "pages/user/user",
+    "pages/auth/auth",
+    "pages/collect/collect",
+    "pages/city/city"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#181818",
+    "navigationBarTitleText": "我的点评",
+    "navigationBarTextStyle": "#fff"
+  }
+}

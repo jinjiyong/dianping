@@ -1,0 +1,16 @@
+<view class='userinfo'>
+  <button type='default' class='btn'>获取登录授权</button>
+  <view class='content'>
+    <image class='user-photo' src='/common/img/img.png'></image>
+    <view class='user-text'>
+      <text class=''>我</text>
+      <text>man</text>
+    </view>
+    <view class='user-text'>
+      <text class=''>China</text>
+    </view>
+  </view>
+</view>
+<view class='collect'>
+  <navigator class='iconfont icon-xiangxia' url='/pages/collect/collect'>收藏列表</navigator>
+</view>
